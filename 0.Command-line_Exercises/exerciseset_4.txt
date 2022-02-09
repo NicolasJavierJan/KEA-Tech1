@@ -105,58 +105,64 @@ mv bay.txt recession.txt
 44: output the full path you are on
 pwd
 45: create a file called bay.txt. Put the text 'recommend discover hill shot recommend' in it and copy it so there is also a proportion.txt with same content
-cp recommend.txt
+echo "recommend discover hill shot recommend" >> bay.txt
+cp bay.txt proportion.txt
 46: create two directories abortion and nerve and move into nerve
 mkdir abortion nerve
 cd nerve
 47: move two folders up
 cd ../..
 48: delete the last file you created
-
+cd nico
+rm proportion.txt
 49: output the content of any file in the directory
-
+cat bay.txt
 50: output the full path you are on
-
+pwd
 51: output the sizes of the files in the directory
-
+ls -lh
 52: output the content of any file in the directory
-
+cat bay.txt
 53: output who the active user is
-
+whoami
 54: output hidden files
-
+ls -d .*
 55: output who the active user is
-
+whoami
 56: echo 'hill needle needle stock medal' into the file
-
+echo "hill needle needle stock medal" >> file.txt
 57: move one level up
-
+cd ..
 58: move two folders up
-
+cd ../..
 59: write something in a file called recession.txt
-
+echo "something" >> recession.txt
 60: create a file called salvation.txt
-
+touch salvation.txt
 61: create a file called nerve.txt. Put the text 'rain on rider architecture discover' in it and copy it so there is also a sister.txt with same content
-
+echo "rain on rider architecture discover" >> nerve.txt
+cp nerve.txt sister.txt
 62: if there are any directories in the folder then move inside any one of them
-
+cd Nico
 63: move one level up
-
+cd ..
 64: output who the active user is
-
+whoami
 65: create two directories advice and degree and move into degree
-
+mkdir adive degree
+cd degree
 66: output the full path you are on
-
+pwd
 67: create two directories ditch and depression and move into depression
-
+mkdir ditch depression
+cd depression
 68: open a file in the terminal and see the content
-
+cat file.txt
 69: create two directories pray and shallow and move into shallow
-
+mkdir pray shallow
+cd shallow
 70: output who the active user is
-
+whoami
 71: write something in a file called on.txt
 
 72: create two directories panel and cousin and move into cousin
