@@ -164,65 +164,79 @@ cd shallow
 70: output who the active user is
 whoami
 71: write something in a file called on.txt
-
+echo "something" >> on.txt
 72: create two directories panel and cousin and move into cousin
-
+mkdir panel cousin
+cd cousin
 73: output who the active user is
-
+whoami
 74: create a file called panel.txt and rename it so that it's called advice.txt instead. Hint: This should be done in 2 commands
-
+touch panel.txt
+mv panel.txt advice.txt
 75: output who the active user is
-
+whoami
 76: create a file called plane.txt and rename it so that it's called advantage.txt instead. Hint: This should be done in 2 commands
-
+touch plane.txt
+mv plane.txt advantage.txt
 77: create a file called hill.txt. Put the text 'beat correspondence discover speculate terminal' in it and copy it so there is also a bay.txt with same content
-
+echo "beat correspondence discover speculate terminal" >> hill.txt
+cp hill.txt bay.txt
 78: create a file called nerve.txt. Put the text 'ditch identity nerve regret medal' in it and copy it so there is also a interference.txt with same content
-
+echo "ditch identify nerve regret medal" >> nerve.txt
+cp nerve.txt interference.txt
 79: create a file called difficulty.txt and rename it so that it's called architecture.txt instead. Hint: This should be done in 2 commands
-
+touch difficulty.txt
+mv difficulty.txt architecture.txt
 80: create two directories medal and pray and move into pray
-
+mkdir medal pray
+cd pray
 81: move one level up
-
+cd ..
 82: create two directories rider and stock and move into stock
-
+mkdir rider stock
+cd stock
 83: delete the last folder you created
-
+cd ..
+rm -rf stock
 84: create a file called relative.txt. Put the text 'support shot cater evaluate shallow' in it and copy it so there is also a terminal.txt with same content
-
+echo "support shot cater evaluate shallow" >> relative.txt
+cp relative.txt terminal.txt
 85: output the sizes of the files in the directory
-
+ls -lh
 86: output the full path you are on
-
+pwd
 87: create a file called stock.txt. Put the text 'stock pen shot advice depression' in it and copy it so there is also a medal.txt with same content
-
+echo "stock pen shot advice depression" >> stock.txt
+cp stock.txt medal.txt
 88: delete the last file you created
-
+rm -rf rider
 89: if there are any directories in the folder then move inside any one of them
-
+cd Links
 90: create a directory responsibility and move into the directory
-
+mkdir responsibility
+cd responsibility
 91: create a file called stock.txt. Put the text 'medal plane nerve cater degree' in it and copy it so there is also a advantage.txt with same content
-
+echo "medal plane nerve cater degree" >> stock.txt
+cp stock.txt advantage.txt
 92: move two folders up
-
+cd ../..
 93: create a file called recommend.txt
-
+touch recommend.txt
 94: create two directories responsibility and bay and move into bay
-
+mkdir responsibility bay
+cd bay
 95: move one level up
-
+cd ..
 96: output what's in the directory
-
+ls -la
 97: echo 'experienced shot speculate surprise shot' into the file
-
+echo "experienced shot speculate surprise shot" >> file.txt
 98: output who the active user is
-
+whoami
 99: output hidden files
-
+ls -d .*
 100: output the sizes of the files in the directory
-
+ls -lh
 101: output what's in the directory
 
 102: echo 'shot needle recession pioneer experienced' into the file
