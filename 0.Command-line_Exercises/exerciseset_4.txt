@@ -238,65 +238,75 @@ ls -d .*
 100: output the sizes of the files in the directory
 ls -lh
 101: output what's in the directory
-
+ls -la
 102: echo 'shot needle recession pioneer experienced' into the file
-
+echo "shot needle recession pioneer experienced" >> test.txt
 103: create a directory experienced and move into the directory
-
+mkdir experienced
+cd experienced
 104: output who the active user is
-
+whoami
 105: output the sizes of the files in the directory
-
+ls -lh
 106: output hidden files
-
+ls -d .*
 107: if there are any directories in the folder then move inside any one of them
-
+there are none
+mkdir test
+cd test
 108: if there are any directories in the folder then move inside any one of them
-
+there are none
+mkdir test2
+cd test2
 109: move two folders up
-
+cd ../..
 110: if there are any directories in the folder then move inside any one of them
-
+cd test
 111: output who the active user is
-
+whoami
 112: output the full path you are on
-
+pwd
 113: create a file called ethics.txt
-
+touch ethics.txt
 114: output what's in the directory
-
+ls -la
 115: delete the last file you created
-
+rm ethics.txt
 116: create a file called terminal.txt
-
+touch terminal.txt
 117: output the full path you are on
-
+pwd
 118: output what's in the directory
-
+ls -la
 119: move one level up
-
+cd ..
 120: output the sizes of the files in the directory
-
+ls -lh
 121: if there are any directories in the folder then move inside any one of them
-
+there are none
+mkdir test
+cd test
 122: output hidden files
-
+ls -d .*
 123: move two folders up
-
+cd ../..
 124: output who the active user is
-
+whoami
 125: create a file called pray.txt and rename it so that it's called architecture.txt instead. Hint: This should be done in 2 commands
-
+touch pray.txt
+mv pray.txt architecture.txt
 126: output who the active user is
-
+whoami
 127: create a file called hill.txt. Put the text 'surprise on hill difficulty experienced' in it and copy it so there is also a excuse.txt with same content
-
+echo "surprise on hill difficulty experienced" >> hill.txt
+cp hill.txt excuse.txt
 128: delete the last folder you created
-
+rm -rf test
 129: if there are any directories in the folder then move inside any one of them
-
+cd downloads
 130: create a file called ditch.txt and immediately delete it
-
+touch ditch.txt
+rm ditch.txt
 131: output who the active user is
 
 132: move two folders up
