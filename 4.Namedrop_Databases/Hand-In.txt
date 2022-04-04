@@ -1,0 +1,15 @@
+List 6 relational databases.
+    1. MySQL
+    2. PostgreSQL
+    3. MariaDB
+    4. SQLite
+    5. Microsoft SQL Server
+    6. Oracle Database
+List at least 1 of each of the NoSQL categories.
+    1. Key-Value Pair (Redis)
+    2. Column-oriented Graph (HBase)
+    3. Graphs Based (Neo4J)
+    4. Document-oriented (Mongo DB)
+List 2 in-memory databases.
+    1. SQLite
+    2. ArangoDB
